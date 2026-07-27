@@ -5,6 +5,5 @@
 !/.gitignore
 
 # Allow only this practice subtree
-!/C_Sharp_Practice/
-!/C_Sharp_Practice/CSharp_Fundamentals/
-!/C_Sharp_Practice/CSharp_Fundamentals/**
+!/CSharp_Fundamentals/
+!/CSharp_Fundamentals/**
