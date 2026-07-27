@@ -1,20 +1,10 @@
-# Build outputs
-**/bin/
-**/obj/
+# Ignore everything by default at repo root
+/*
 
-# User-specific files
-*.user
-*.rsuser
-*.suo
-*.userprefs
-*.sln.docstates
-*.csproj.user
-*.csproj.lscache
+# Keep this file tracked
+!/.gitignore
 
-# IDE folders
-.vs/
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
+# Allow only this practice subtree
+!/C_Sharp_Practice/
+!/C_Sharp_Practice/CSharp_Fundamentals/
+!/C_Sharp_Practice/CSharp_Fundamentals/**
