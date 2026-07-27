@@ -1,1 +1,9 @@
-# Track everything in this workspace.
+# Ignore everything by default at repo root.
+/*
+
+# Keep this file tracked.
+!/.gitignore
+
+# Allow only the CSharp_Fundamentals subtree.
+!/CSharp_Fundamentals/
+!/CSharp_Fundamentals/**
